@@ -139,7 +139,7 @@ global.$$app = Object.assign(global.$$app || {}, {alipay_pkg: 'com.eg.android.Al
         let _press_itv = 160;
 
         while (!$$flag.e_rain_finished) {
-            let _pts = imagesx.findAllPointsForColor(imagesx.capt(), '#daff00', {
+            let _pts = imagesx.findAllPointsForColor(imagesx.capt(), '#aff906', {
                 threshold: 0,
                 region: [0, cY(0.14), W, cYx(0.4)],
                 is_recycle_img: true,
